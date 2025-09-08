@@ -5,7 +5,7 @@ This project is a **Convolutional Neural Network (CNN)** model that can distingu
 
 Ultimately, the goal was to familiarize myself with building, training, and deploying AI models—starting with a simple binary classification task: Cats vs. Dogs.
 
-Is it cat? Is it dog? Or is it something in between?
+_Is it cat? Is it dog? Or is it something in between?_
 
 ---
 
