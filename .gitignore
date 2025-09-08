@@ -6,6 +6,9 @@ __pycache__/
 # Ignore virtual environment folder
 venv/
 
+# Ignore saved_models for now
+saved_models/
+
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
