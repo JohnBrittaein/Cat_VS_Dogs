@@ -43,12 +43,20 @@ pip install -r requirements.txt
 
 After setting up the environment and installing dependencies, you can begin using the model. Follow these steps:
 
-## 1. Prepare Your Images
+## 1. Train The Model
+
+Run `train_model` this will train the model using Tensorflow dataset 
+
+```bash
+python train_model.py
+```
+
+## 2. Prepare Your Images
 
 Place your cat and dog images the `images` folder
 Change the `image_path = 'images/image1.jpg'` to your desired image
 
-## 2. Run the Model
+## 3. Run the Model
 
 Run the `run_model.py` script and view the results in the terminal
 
@@ -73,7 +81,8 @@ This is just the beginning! While the current model is functional, there are sev
 │   ├── load_data.py         # Loads and processes the dataset
 │   ├── pre_process_data.py  # Handles image resizing and normalization
 │   ├── predict.py           # Loads the trained model and makes predictions
-│   ├── run_model.py         # Main entry point to train and evaluate the model
+│   ├── run_model.py         # Main entry point to run the model after it's been trained
+|   ├── train_model.py       # Trains the model using Tensorflows dataset
 │   └── requirements.txt     # Project dependencies
 └── README.md                # Project documentation
 ```
