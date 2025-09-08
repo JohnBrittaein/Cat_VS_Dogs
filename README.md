@@ -5,14 +5,26 @@ This project is a **Convolutional Neural Network (CNN)** model that can distingu
 
 Ultimately, the goal was to familiarize myself with building, training, and deploying AI models—starting with a simple binary classification task: Cats vs. Dogs.
 
+Is it cat? Is it dog? Or is it something in between?
+
 ---
 
 ## 🚀 Features
 
-- **Simple CNN Architecture**: A straightforward Convolutional Neural Network that is easy to understand and train for binary image classification tasks.
+- **CNN**: A straightforward Convolutional Neural Network which knows the difference between a dog and a cat.
 - **Image Preprocessing**: Resizing, normalization, and batching for preparing image data.
 - **Model Evaluation**: Track performance during training, including accuracy and loss metrics.
 - **Saving & Loading**: The trained model can be saved and reloaded for future predictions.
+
+# Cat vs Dog Model Results
+
+If you for some reason have never seen a cat or dog before or struggle to tell the difference this is a helpful tool to help you figure out what it is.
+
+![Cat Image](images/image1.jpg)
+# 🚨 CAT SPOTTED! 🚨
+
+![Dog Image](images/image2.jpg)
+# 🚨 DOG SPOTTED! 🚨
 
 ---
 
@@ -63,30 +75,3 @@ Run the `run_model.py` script and view the results in the terminal
 ```bash
 python run_model.py
 ```
-
-# 🛠️ Improvements & Future Work
-
-This is just the beginning! While the current model is functional, there are several ways it can be improved:
-
- - **GUI for Easier Interaction:** In the future, I plan to develop a simple graphical user interface (GUI) where you can drag and drop images and see the prediction.
- - **Expanded Dataset:** Currently, the model is designed only for binary classification (Cats vs. Dogs). Expanding the dataset to include more animal categories would make the model more general. This might involve retraining with a larger, more diverse dataset or creating a new project entirely.
- - **Model Enhancements:** Further optimizations and more advanced techniques, such as transfer learning, could be used to improve accuracy, especially for more complex datasets.
-
-# 📚 Files Structure
-
-```plaintext
-.
-├── cat_vs_dog_classifier/
-│   ├── create_model.py      # Defines the CNN model architecture
-│   ├── load_data.py         # Loads and processes the dataset
-│   ├── pre_process_data.py  # Handles image resizing and normalization
-│   ├── predict.py           # Loads the trained model and makes predictions
-│   ├── run_model.py         # Main entry point to run the model after it's been trained
-|   ├── train_model.py       # Trains the model using Tensorflows dataset
-│   └── requirements.txt     # Project dependencies
-└── README.md                # Project documentation
-```
-
-# 📝 Conclusion
-
-This project was an excellent starting point for my journey into deep learning with Python. While it is simple, it demonstrates how to build a functional AI model from the ground up—training, evaluating, and deploying a classification model with images. There’s plenty of room for improvement, but this project helped me solidify foundational concepts and tools that I can apply to more advanced machine learning tasks in the future.
